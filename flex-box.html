@@ -1,0 +1,113 @@
+  
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta name="viewport" content="width=device-width">
+
+  	<title>learing flexbox</title>
+  		<style>
+  			
+  			    .flex_box{
+            display: flex;	border:1px solid black;
+          	padding: 5px;
+          }
+
+          .flex_box_kids{
+          	background: whitesmoke;
+          	border:1px solid black;
+          	padding: 5px;
+          }
+      
+      .reverse_row{
+      	flex-direction: row-reverse;
+      }
+
+      .flex_wrap{
+      	flex-wrap: wrap;
+      }
+
+.width_50{
+	width:50%;
+}
+
+.justify_center{
+	  justify-content: center;
+}
+
+.height_100 {
+	height: 100px
+}
+
+.align_center{
+	align-items: center;
+}
+
+  		</style>
+  </head>
+  <body>
+
+
+<h1>flexbox sample </h1>
+
+  	<section class="flex_box">
+
+        <section class="flex_box_kids"> flex box 1</section>
+
+        <section class="flex_box_kids">flex box 1</section>
+
+        <section class="flex_box_kids"> flex box 1 </section>
+
+    </section>
+
+
+    <h1>flexbox row-reverse sample </h1>
+
+  	<section class="flex_box reverse_row">
+
+        <section class="flex_box_kids"> flex box 1</section>
+
+        <section class="flex_box_kids">flex box 1</section>
+
+        <section class="flex_box_kids"> flex box 1 </section>
+
+    </section>
+
+      <h1>flexbox flex-wrap sample </h1>
+
+  	<section class="flex_box flex_wrap">
+
+        <section class="flex_box_kids width_50"> flex box 1</section>
+
+        <section class="flex_box_kids width_50">flex box 1</section>
+
+        <section class="flex_box_kids width_50"> flex box 1 </section>
+
+    </section>
+
+      <h1>flexbox justify-content sample </h1>
+
+  	<section class="flex_box justify_center">
+
+        <section class="flex_box_kids"> flex box 1</section>
+
+        <section class="flex_box_kids">flex box 1</section>
+
+        <section class="flex_box_kids"> flex box 1 </section>
+
+    </section>
+
+     <h1>flexbox justify-content sample </h1>
+
+  	<section class="flex_box height_100 align_center">
+
+        <section class="flex_box_kids"> flex box 1</section>
+
+        <section class="flex_box_kids">flex box 1</section>
+
+        <section class="flex_box_kids"> flex box 1 </section>
+
+    </section>
+  
+  </body>
+  </html>
+      
